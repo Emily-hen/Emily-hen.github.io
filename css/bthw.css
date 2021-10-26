@@ -1,0 +1,23 @@
+.jumbotron {
+    background-image: url("https://newtaipei.travel/content/images/attractions/1227/1024x768_20150312160659.jpg");
+    color:whitesmoke;
+    background-position:center;
+    padding: 200px 25px;
+    background-size: cover;
+    font-family: Montserrat, sans-serif;  
+}
+
+p{
+    padding: 30px;
+}
+
+footer{
+    background-color:#455A47;
+    color: white;
+    font-family: Montserrat, sans-serif; 
+
+}
+.bg-success{
+    --bs-bg-opacity: 0.5;
+  background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+}
