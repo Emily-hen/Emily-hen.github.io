@@ -1,10 +1,43 @@
+#first {
+    background-image: url("https://newtaipei.travel/content/images/attractions/1227/1024x768_20150312160659.jpg");
+    min-height: 300px;
+    max-width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+#second {
+    background-image: url("https://newtaipei.travel/content/images/attractions/1227/1024x768_20150312160659.jpg");
+    min-height: 500px;
+    max-width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter:grayscale(100%);
+}
+
+#sec1 {
+    background-color: aliceblue;
+    color: black;
+    box-sizing: border-box;
+    width: 950px;
+    position: center;
+    margin:0px auto;
+    font-size: 20px;
+
+}
 .jumbotron {
     background-image: url("https://newtaipei.travel/content/images/attractions/1227/1024x768_20150312160659.jpg");
     color:whitesmoke;
     background-position:center;
     padding: 200px 25px;
     background-size: cover;
-    font-family: Montserrat, sans-serif;  
+     
 }
 
 p{
@@ -14,10 +47,31 @@ p{
 footer{
     background-color:#455A47;
     color: white;
-    font-family: Montserrat, sans-serif; 
+    
 
 }
-.bg-success{
-    --bs-bg-opacity: 0.5;
-  background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+
+.text-center{
+    text-align: center;
+}
+
+#middle{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/虎豹潭_Hubaotan_-_panoramio_%282%29.jpg/1600px-虎豹潭_Hubaotan_-_panoramio_%282%29.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#ending {
+    background-color:#FFFAF0;
+    color: black;
+    box-sizing: border-box;
+    width: 600px;
+    position: center;
+    margin:0px auto;
+    font-size: 16px;
+    text-align: justify;
+
 }
