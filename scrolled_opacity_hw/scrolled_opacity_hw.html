@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <style>
+        .opa {
+            opacity: 1;
+            position: absolute;
+            object-fit: cover;
+            height: 100vh;
+            width: 100vw;
+            left: 0;
+            top: 0;
+        }
+    </style>
+    <title>十年來的漁光島</title>
+</head>
+
+<body>
+    <div style="height:100vh;background-color:rgb(111, 101, 101)">
+        <h1 class="dispaly-4" style="font-size: 60px; text-align:center;line-height:600px;color:ivory">十年來的漁光島。</h1>
+        <p class="author" style="color:ivory;font-size:16px;text-align:center;">
+            台北報導 / 陳槿蓉
+        </p>
+    </div>
+
+
+    <div style="height:50vh;background-color: white;">
+        <p style="padding-top: 20vh;font-size: 20px; text-align:center;color:black">
+            近年來，漁光島成了台南觀光景點必去之一，然而鮮少人知道在2016年前的漁光島尚未受到整治，
+            <br>
+            <br>
+            海灘上堆積了早期安平港舊港打通工程所遺留的尖銳塊石等雜物。
+        </p>
+    </div>
+
+    <div id="outer" style="height:300vh">
+        <div class="sticky-top">
+            <img class="opa" data-pos="1" style="z-index:6"
+                src="https://res.cloudinary.com/dbwsjoor0/image/upload/v1639707242/2003-100_o4dlfm.jpg">
+            <img class="opa" data-pos="2" style="z-index:5"
+                src="https://res.cloudinary.com/dbwsjoor0/image/upload/v1639707244/2007-100_a4fygu.jpg">
+            <img class="opa" data-pos="3" style="z-index:4"
+                src="https://res.cloudinary.com/dbwsjoor0/image/upload/v1639707245/2012-100_qgg9gs.jpg">
+            <img class="opa" data-pos="4" style="z-index:3"
+                src="https://res.cloudinary.com/dbwsjoor0/image/upload/v1639707245/2017-100_uxcmsc.jpg">
+            <img class="opa" data-pos="5" style="z-index:2"
+                src="https://res.cloudinary.com/dbwsjoor0/image/upload/v1639707245/2018-100_izbe5b.jpg">
+            <img class="opa" data-pos="6" style="z-index:1"
+                src="https://res.cloudinary.com/dbwsjoor0/image/upload/v1639707244/2021-100_xiw6wi.jpg">
+        </div>
+    </div>
+
+    <div style=" height:150vh;background-color: white">
+        <p style="padding-top: 120vh;font-size: 20px; text-align:center;color:black">
+            從2003年至今，可以看見有越來越多的人為建物介入，安平港的船隻也日漸增加，
+            <br>
+            <br>
+            當夕陽聖地成了必去之地，漁光島又成了什麼樣子呢？
+        </p>
+    </div>
+    <div style="height:50vh;background-color: white;">
+        <img src="https://img.ltn.com.tw/Upload/news/600/2018/08/22/183.jpg" style="width:700px;height:auto;margin-left:380px;">
+        <figcaption class="blockquote-footer" style="text-align:center;">
+            圖片取自自由時報
+        </figcaption>
+    </div>
+    
+    <div style="background-color: white;height:60px"></div>
+    <div class="text" style="text-align:center;">
+        <p>漁光島沿岸遭到人為填補，政府為發展觀光大幅發展藝術節、藝文活動等
+            <br>
+            <br>
+            民眾大舉在漁光島亂丟垃圾，呼籲民眾保護自然資源。
+        </p>
+    </div>
+    </div>
+    </div>
+
+    </div>
+
+    <div style=" height:25vh;background-color: grey">
+        <p style="padding-left: 50px;padding-top: 50px;font-size: 20px;">
+            圖片來源:GoogleEarth
+            <br>
+            <br>
+            資料來源:臺南市政府
+        </p>
+    </div>
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+    </script>
+
+</body>
+<script>
+    $(function () {
+        var winh = $(window).height();
+        var outer_pos = $("#outer").offset().top;
+        var outer_end = outer_pos + $("#outer").height();
+
+        $(window).scroll(function () {
+            var scrolled = $(document).scrollTop();
+            $(".opa").each(function (index) {
+                if (scrolled > outer_pos && scrolled < outer_end) {
+                    $(this).css("opacity", $(this).data("pos") - (scrolled - outer_pos) / winh);
+                    console.log(
+                        "[" +
+                        ((scrolled - outer_pos) / winh).toPrecision(1) +
+                        "]" +
+                        index +
+                        ": " +
+                        $(this).css("opacity")
+                    );
+                }
+            });
+        });
+    });
+</script>
+
+</html>
