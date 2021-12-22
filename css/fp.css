@@ -1,0 +1,59 @@
+#first {
+    background-image: url("https://res.cloudinary.com/dbwsjoor0/image/upload/v1640137859/DSCN2929_le4fqz.jpg");
+    min-height: 100vh;
+    max-width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+#second {
+    background-image: url("https://res.cloudinary.com/dbwsjoor0/image/upload/v1640137859/DSCN2929_le4fqz.jpg");
+    min-height: 100vh;
+    max-width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter:grayscale(100%);
+}
+
+
+
+#sec1 {
+    background-color: aliceblue;
+    color: black;
+    box-sizing: border-box;
+    width: 750px;
+    position: center;
+    margin:0px auto;
+    font-size: 20px;
+
+}
+
+
+p{
+    text-indent: 40px;
+    padding: 30px;
+
+}
+
+#wideobj {
+    position: relative;
+    background-size: cover;
+    height: 100vh;
+    width: 1000vh;
+    left: 0px;
+    background-color: #003D79;
+    background-image: url(https://res.cloudinary.com/dbwsjoor0/image/upload/v1640163361/%E5%B7%A5%E4%BD%9C%E5%8D%80%E5%9F%9F_2_3x_byotkx.png);
+}
+
+
+.text-center{
+    text-align: center;
+}
+
+
