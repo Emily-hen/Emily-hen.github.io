@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+    <title>myworld</title>
+
+    <style>
+        .slideanimate {
+            visibility: hidden;
+        }
+
+        .slide {
+            visibility: visible;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="outer" style="width:100vw;background:linear-gradient(coral, dodgerblue);height: 10000px">
+        <img src="https://res.cloudinary.com/dbwsjoor0/image/upload/v1640618018/%E5%9C%96%E7%89%87_6_ag4wke.png" class="img-fluid slideanimate" data-pos = 2000 data-direction="fadeInUp" style="position:fixed;left:0px;top:0px;width:100vw;">
+        <img src="https://res.cloudinary.com/dbwsjoor0/image/upload/v1640618018/%E5%9C%96%E7%89%87_5_gaxc8r.png" class="img-fluid slideanimate" data-pos = 1000 data-direction="fadeInDown" style="position:fixed;left:0px;top:0px;width:100vw;">
+        <img src="https://res.cloudinary.com/dbwsjoor0/image/upload/v1640617116/%E5%9C%96%E7%89%87_1_kd497o.png" class="img-fluid slideanimate" data-pos = 4000 data-direction="fadeInUp" style="position:fixed;left:0px;top:0px;width:100vw;">
+        <img src="https://res.cloudinary.com/dbwsjoor0/image/upload/v1640617116/%E5%9C%96%E7%89%87_2_w1ndw7.png" class="img-fluid slideanimate" data-pos = 5000 data-direction="fadeInRight" style="position:fixed;left:0px;top:0px;width:100vw;">
+        <img src="https://res.cloudinary.com/dbwsjoor0/image/upload/v1640617117/%E5%9C%96%E7%89%87_3_knfa3k.png" class="img-fluid slideanimate" data-pos = 6000 data-direction="fadeInDown" style="position:fixed;left:0px;top:0px;width:100vw;">
+        <img src="https://res.cloudinary.com/dbwsjoor0/image/upload/v1640617117/%E5%9C%96%E7%89%87_4_sn7xmz.png" class="img-fluid slideanimate" data-pos = 7000 data-direction="fadeInRight" style="position:fixed;left:0px;top:0px;width:100vw;">
+             
+        
+<!--        <div style="position:absolute;background-color:rgba(0,0,0,0.5);width:50vw;min-height:500px"></div>-->
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <script>
+        $(function() {
+            var winh = $(window).height();
+            $(window).scroll(function() {
+                var scrolled = $(window).scrollTop();
+                $(".slideanimate").each(function() {
+                    if (scrolled > $(this).data("pos")) {
+                        $(this).addClass("animated slide " + $(this).data("direction"));
+                    }
+                    if (scrolled == 0) {
+                        $(this).removeClass("animated slide " + $(this).data("direction"));
+                    }
+                });
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>
